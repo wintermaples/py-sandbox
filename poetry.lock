@@ -1,0 +1,20 @@
+[[package]]
+name = "mecab-python"
+version = "0.996"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.source]
+type = "directory"
+url = "mecab-python-0.996"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "140db8ed236a68e0f32fd5a40ba887363d407a77668ce05bf74a74664cd6fcbf"
+
+[metadata.files]
+mecab-python = []
