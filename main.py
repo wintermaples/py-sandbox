@@ -1,11 +1,16 @@
 import abc
 
-from tfidf.tfidf import TFIDF
+from tfidf.tfidfprogram import TFIDFProgram, OkapiBM25Program
 
 
 def main():
-    ps = TFIDF()
+    ps = TFIDFProgram()
     ps.run()
+    print('=' * 100)
+    ps = OkapiBM25Program()
+    ps.run()
+    
+    
 
 
 if __name__ == '__main__':
